@@ -1,0 +1,40 @@
+.form {
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    &__input{
+        padding: .5rem;
+        border-radius: .5rem;
+        border: 1px solid #a3a3a3;
+        outline: none;
+        &-btn{
+            width: 100%;
+            background-color: blue;
+            border: none;
+            border-radius: .5rem;
+            padding: .5rem;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+.alert{
+   
+    padding: 1rem;
+    width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+ 
+    &__text{
+        background-color: rgba($color: red, $alpha: .4);
+        padding: 1rem;
+        border-radius: .5rem;
+    }
+}

@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 3rem;
+     &__titel{
+        color: blue;
+     }
+     &__label{
+        margin-top: 2rem;
+     }
+}

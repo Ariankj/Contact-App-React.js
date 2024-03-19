@@ -1,0 +1,35 @@
+.contact{
+    width: 80%;
+    margin: 2rem auto;
+    &__list{
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: .5rem;
+    }
+}
+.no__contact{
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: .5rem;
+    margin-top: 2rem;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e4e4e4;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    &:last-child{
+        margin-bottom: 0;
+    }
+    &__btn {
+        background-color: red;
+        color: #fff;
+        border: none;
+        padding: .2rem;
+        cursor: pointer;
+        border-radius: .5rem;
+    }
+}
